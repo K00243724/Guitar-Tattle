@@ -1,0 +1,78 @@
+@font-face{
+    src: url(font/imprintmtshadow.ttf);
+    font-family:mtshad;
+}
+div#wrapper {
+    max-width: 1700px;
+    border: 1px solid black;
+    padding:5px;
+    
+    
+}
+header h1 {
+    margin: 0px;
+    font-size: 240px;
+    font-family: mtshad;
+    font-weight: 20;
+    color: red;  
+}
+header {
+    background-color: black;
+    background-image: url(../img/Guitar%20PG03.jpg);
+    background-size: contain;
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+header img {
+     
+     height: 800px;
+     width: 1900px;
+     margin-top: 0px;
+}
+.nav {
+    margin-top: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+ul {
+    list-style-type: none;
+    border-color: red;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+ul a {
+    //background-color: aqua;
+    font-family: mtshad;
+    font-weight:500;
+    color: red;
+    flex-direction: row;
+    font-size: 1.4em; 
+    text-decoration: none;
+}
+img#ad1 {
+    height: 270px;
+    width: 70%;
+}
+
+div#ad {
+    width: 100%;
+    text-align: center;
+    height:auto;
+    
+}
+#tele {
+    width: auto;
+    margin-left: 200px;
+}
+#smpic1 {
+    width:100px;
+    
+}
+#MAtl {
+    display: grid;
+}
