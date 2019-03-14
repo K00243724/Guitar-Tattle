@@ -75,4 +75,5 @@ div#ad {
 }
 #MAtl {
     display: grid;
+    grid-template-columns:;
 }
