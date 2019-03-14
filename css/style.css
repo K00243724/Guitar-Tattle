@@ -1,3 +1,19 @@
+
+
+.main_featured_article {
+    width:700px;
+}
+
+.featured_group{
+    width:500px;
+}
+
+#featured_articles {
+    
+    display:flex;
+     flex-direction:  row;
+    justify-content:  center;
+}
 @font-face{
     src: url(font/imprintmtshadow.ttf);
     font-family:mtshad;
@@ -77,3 +93,7 @@ div#ad {
     display: grid;
     grid-template-columns:;
 }
+
+
+
+
