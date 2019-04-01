@@ -202,7 +202,7 @@ footer {
     font-family: 'Spectral', serif;
 }
 #media {
-    //display:flex;
+    display:flex;
     flex-direction: row;
    margin-bottom: 10px;
     margin-top: 0px;
@@ -331,7 +331,7 @@ header h1 {
 .main_featured_article {
     width: 100%;
     height: auto;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 .main_featured_article h2 {
     margin-top: -70px;
@@ -652,5 +652,8 @@ ul a:hover:not(.active){
 #menuToggle input:checked ~ ul {
   transform: none;
 }
+    #media {
+        margin-top: 75px;
+    }
     
 }
