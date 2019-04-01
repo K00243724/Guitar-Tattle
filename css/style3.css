@@ -2,56 +2,45 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    height:2000px;
-   // border: 1px solid black;
     margin-left: auto;
     margin-right: auto;
-    //background-color: cornsilk;
 }
-#newsLt,  {
+#newsLt  {
     display: flex
     width: 100%;
-    height: 1800px;
-    //background-color: darkgray;
 }
 #ltTop {
     display: flex
     width:100%;
-    //height: 750px;
     
 }
 #ltBtm {
     display: flex;
     flex-direction: column;
     width: 100%;
-    //height:auto;
-  
 }
 .smNews {
     display: flex;
     flex-direction: row;
     width:100%;
-    //height: auto;
+   
     
 }
 .smNews div {
     display: flex;
     flex-direction: column;
     width: 100%;
-    //height: auto;
-    //border: 1px solid black;
-   
 }
 .div1 img{
     margin: auto;
     width: 80%;
-    //height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
 }
 #ltTop img {
     display: flex;
-    width:100%;
-    //height: auto;
-    
+    width:100%;  
 }
  p {
     display: flex;
@@ -65,11 +54,56 @@
     //color: black;
     border: 1.5px solid grey;
     width: 80%;
+    margin-left: 30px;
+    margin: auto;
     
 }
 #newsRt {
     display: flex;
     flex-direction: column;
-    //margin-left: auto;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    width: 80%;
+    flex: 100%
+}
+.adp3{
+    //flex-direction: column;
+    flex: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#menu button i .fa fa-search{
+    width: 10px;
+    height: 10px;
+}
+/*//////////////////////////////////////////
+//////////Tablet Size///////////////////////
+///////////////////////////////////////////*/
+@media screen and (max-width: 1270px)and (min-width: 541px){
+    .adp3 img{
+        width: 90%;
+    }
+    
+}
+/*/////////////////////////////////////
+/////////PHONE SIZE////////////////////
+//////////////////////////////////////*/
+@media screen and (max-width: 540px) {
+    #allNews {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #newsLt {
+        margin-top: 50px;
+    }
+    .adp3 img{
+        width: 80%;
+    }
+    
+    
 }

@@ -1,4 +1,7 @@
-
+@font-face{
+    src: url(font/imprintmtshadow.ttf);
+    font-family:mtshad;
+}
 
 .main_featured_article img {
     width:100%;
@@ -8,6 +11,10 @@
 .main_featured_article {
     width: 100%;
     height: auto;
+}
+.main_featured_article p::first-letter {
+  font-size: 200%;
+  color: #8A2BE2;
 }
 .main_featured_article p {
     flex: auto;
@@ -34,7 +41,6 @@
     width:auto;
     display: flex;
     flex-direction: row;
-    //border: 1px solid black;
     overflow:hidden;
 }
 .featured_group{
@@ -42,7 +48,6 @@
     margin-left: 30px;
     display:flex;
     flex-direction: column;
-    //justify-content: space-around;
 }
 
 #featured_articles {
@@ -54,10 +59,10 @@
 .feat_txt p {
     padding: 0px 10px 0px 10px;
     width: 100%;
-    //height: 200px;
     font-size: 1.0em;
     font-family: 'Spectral', serif;
-    font-weight: 200
+    font-weight: 200;
+    text-decoration: none;
 }
  h3{
     text-align: center;
@@ -66,13 +71,12 @@
     margin-top: 5px;
     
 }
-
-@font-face{
-    src: url(font/imprintmtshadow.ttf);
-    font-family:mtshad;
-}
 a {
+    color: black;
     text-decoration: none;
+}
+a:hover {
+  background-color: lightgrey;
 }
 div#wrapper {
     max-width: 1700px;
@@ -138,6 +142,7 @@ img#ad1 {
 
 #ad {
     width: 100%;
+    margin-top: 20px;
     
 }
 #tele {
@@ -153,8 +158,8 @@ footer {
 }
 #article {
     display: flex;
-    //margin-left: auto;
-    //margin-right: auto;
+    /*margin-left: auto;
+    //margin-right: auto;*/
     flex-direction: row;
     border: 1px solid black;
         
@@ -170,35 +175,27 @@ footer {
     color: forestgreen;
     display: block;
 }
-#ad5 {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-top: 100px;
-}
 #p2ads {
     display: flex;
     flex-direction: column;
-    width: 200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 100px;
 }
 #ad4 {
-    flex-shrink:100%;
-    width: 100%;
+    
+}
+#ad5 {
+    margin-top:200px; 
 }
 #photo img {
     display: block;
      width:100%;
     height: auto; 
 }
-#photo p {
-    font-size: 1.3em;
+#photo p{
+    font-size: 1.2em;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
@@ -212,7 +209,6 @@ footer {
     display: block;
 }
 .media {
-   
     width: 40px;
     border-radius: 55px;
     margin-top: 10px;
@@ -236,17 +232,16 @@ input [type=text] {
 #menuToggle input[type=checkbox]{
     opacity: 0;
 }
-nav .search-container {
+nav .search-container  {
   float: right;
 }
 
 .search-container input[type=text] {
-  padding: 6px;
-  margin-top: 8px;
+  padding: 5px;
+  margin-top: 0px;
   font-size: 17px;
   //background-color: white;
   border: 1px solid red;
-  //z-index: 99;
 }
 
  nav .search-container button {
@@ -360,6 +355,7 @@ header h1 {
     width: 100%;
     font-size: .8em;
     flex-direction: row;
+    color: #cdcdcd;
 }
 #main_content{
     display: flex;
@@ -383,6 +379,9 @@ header h1 {
     display: flex;
     width: 100%
     }
+#ad {
+    margin-top: 10px;
+}
 #article {
     display: flex;
     flex-direction: column;
@@ -397,20 +396,17 @@ header h1 {
 body {
   margin: 0;
   padding: 0;
-  
-  /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
 }
 
-a {
+#menu a {
   text-decoration: none;
   color: #232323;
-  
   transition: color 0.3s ease;
 }
 
-a:hover {
+#menu a:hover {
   color: tomato;
 }
 
@@ -551,7 +547,13 @@ ul a {
 .active {
     background-color: lightpink;
 }
-
+a {
+    text-decoration: none;
+}
+    a:hover {
+        background-color: darkred;
+        
+    }
 
 ul a:hover:not(.active){
    color: tomato;
