@@ -1,0 +1,75 @@
+#bkGround{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/Brickwall.jpg);
+   background-position: center;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+input[type=text], 
+input[type=email],
+input[type=pwd]{
+  width: 100%;
+  color: black;
+  padding: 15px;
+  margin: 5px 10 22px 10;
+  display: inline-block;
+  border: none;
+  background:#BDBDBD ;
+  opacity: 0.9;
+  font-size: 1.3em;
+  
+}
+li#search {
+    display: flex;
+    flex-direction: row;
+    width: 10%;
+    border: 1px solid black;
+    z-index: 99;
+}
+.inLog {
+    width: 70%;
+    margin: auto;
+}
+legend {
+    text-align: center;
+    font-size: 2em;
+    
+}
+fieldset {
+    border-radius: 5px;
+    border: 2px solid #F26671;
+    margin-top: 50px;
+}
+p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btns {
+    text-align: center;
+}
+.loginbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.8;
+}
+.registerbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
