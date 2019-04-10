@@ -82,7 +82,9 @@ div#wrapper {
     max-width: 1700px;
     height: auto;
     border: 1px solid black;
-    padding:5px;   
+    padding:5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header h1 {
     margin: 0px;
@@ -130,6 +132,7 @@ ul a {
     font-size: 1.4em; 
     text-decoration: none;
     margin-right: 8px;
+    padding: 10px 25px 10px 25px;
 }
 
 img#ad1 {
@@ -161,7 +164,7 @@ footer {
     /*margin-left: auto;
     //margin-right: auto;*/
     flex-direction: row;
-    border: 1px solid black;
+    //border: 1px solid black;
         
 }
 #feature {
@@ -233,11 +236,12 @@ input [type=text] {
     opacity: 0;
 }
 nav .search-container  {
-  float: right;
+  //float: right;
 }
 
 .search-container input[type=text] {
   padding: 5px;
+    width: 80%;
   margin-top: 0px;
   font-size: 17px;
   //background-color: white;
@@ -245,7 +249,7 @@ nav .search-container  {
 }
 
  nav .search-container button {
-  float: right;
+  /float: right;
   padding: 6px 5px;
   margin-top: 8px;
   margin-right: 5px;
